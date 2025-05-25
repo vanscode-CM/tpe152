@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Futuriste - GUY YVAN SIMO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to right, #000428, #004e92);
+      color: #e0f7ff;
+    }
+    .cv-container {
+      display: flex;
+      max-width: 1200px;
+      margin: 40px auto;
+      background: linear-gradient(to bottom right, rgba(0, 34, 85, 0.95), rgba(0, 8, 60, 0.95));
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,255,255,0.3);
+      overflow: hidden;
+    }
+    .left-column {
+      width: 35%;
+      background: linear-gradient(135deg, #001f3f, #003d7a);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #fff;
+    }
+    .left-column img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 25px #00ffff;
+      margin-bottom: 20px;
+    }
+    .left-column h1 {
+      font-size: 1.8em;
+      color: #00e6e6;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .left-column h2 {
+      font-size: 1.1em;
+      color: #aee8ff;
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+    .right-column {
+      width: 65%;
+      padding: 40px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      color: #00ffff;
+      border-left: 5px solid #00ffff;
+      padding-left: 12px;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+    }
+    .contact div {
+      margin-bottom: 10px;
+    }
+    .contact i {
+      margin-right: 10px;
+      color: #00ffff;
+    }
+    a {
+      color: #66d9ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .skill-bar {
+      margin-bottom: 15px;
+    }
+    .skill-label {
+      margin-bottom: 5px;
+    }
+    .bar-container {
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .bar {
+      height: 20px;
+      background: linear-gradient(90deg, #00e6e6, #00bfff);
+      border-radius: 20px 0 0 20px;
+      transition: width 1s ease-in-out;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "\f111";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      margin-right: 10px;
+      color: #00e6e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="left-column">
+      <img src="profil.jpg" alt="Photo de Guy Yvan Simo">
+      <h1>GUY YVAN SIMO</h1>
+      <h2>Développeur Web Fullstack</h2>
+    </div>
+    <div class="right-column">
+      <div class="section">
+        <h2><i class="fas fa-address-book"></i> Contact</h2>
+        <div class="contact">
+          <div><i class="fas fa-envelope"></i><a href="mailto:guyyvan42@gmail.com">guyyvan42@gmail.com</a></div>
+          <div><i class="fas fa-phone"></i>+237 6 88 43 63 97</div>
+          <div><i class="fas fa-map-marker-alt"></i>Douala, Ndogbon</div>
+          <div><i class="fas fa-flag"></i>Camerounais</div>
+          <div><i class="fas fa-heart"></i>Célibataire</div>
+          <div><i class="fas fa-laptop-house"></i>Télétravail ou présentiel</div>
+          <div><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/Yvan%20Guy" target="_blank">Yvan Guy</a></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-code"></i> Compétences</h2>
+        <div class="skill-bar">
+          <div class="skill-label">HTML</div>
+          <div class="bar-container"><div class="bar" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label">CSS</div>
+          <div class="bar-container"><div class="bar" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label">JavaScript (jQuery)</div>
+          <div class="bar-container"><div class="bar" style="width: 75%"></div></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-briefcase"></i> Postes occupés</h2>
+        <ul>
+          <li>Développeur de bot WhatsApp</li>
+          <li>Développeur Web Front</li>
+          <li>Développeur Web Back</li>
+          <li>Imprimeur (depuis mars 2025 - DEVIA TECHNOLOGY, Douala)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-graduation-cap"></i> Formations</h2>
+        <ul>
+          <li>Bac D - Octobre 2021 à juillet 2022, Lycée privé Fondation Mbéle, Libreville (Gabon)</li>
+          <li>Attestation depuis août 2024 - DEVIA TECHNOLOGY, Douala</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-language"></i> Langues</h2>
+        <ul>
+          <li>Français</li>
+          <li>Anglais</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-gem"></i> Atouts</h2>
+        <ul>
+          <li>Soif d'apprentissage</li>
+          <li>Motivation</li>
+          <li>Détermination</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-gamepad"></i> Centres d'intérêt</h2>
+        <ul>
+          <li>Jeux vidéo</li>
+          <li>Réseaux sociaux</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2><i class="fas fa-user-tie"></i> Références</h2>
+        <p>Mr Bekou Steve, Cadre à DEVIA TECHNOLOGY<br>
+        Téléphone : +237 655 787 998</p>
+       <h1><a href="portefolio.html">voir mon porte folio </a></h1> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
